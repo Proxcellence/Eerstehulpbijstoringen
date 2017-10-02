@@ -152,15 +152,9 @@ p {
 }
 
 
-
-
-
-
-
-
-
-
-
+p strong {
+    font-family: "EtelkaTextProBold", serif;
+}
 
 /* ==========================================================================
    Helper classes
