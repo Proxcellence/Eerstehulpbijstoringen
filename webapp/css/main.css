@@ -114,6 +114,7 @@ textarea {
          font-style: bold;
 }
 
+/*
 #container {
     width: 70vw;
     height: 50vw;
@@ -123,10 +124,9 @@ textarea {
     margin-right: auto;
     margin-top: 10vh;
     background-color: #fff;
-    /* border: 2px solid #ddd; */
+     border: 2px solid #ddd; 
     border-radius: 5px;
-    
-}
+}*/
 
 
 h1 {
@@ -136,7 +136,7 @@ h1 {
     font-family: "EtelkaTextProBold", serif;
     font-size: 40px;
     line-height: 48px;
-
+    margin-top: 12vh;
 }
 
 p {
