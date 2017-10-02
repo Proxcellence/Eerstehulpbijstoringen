@@ -175,6 +175,23 @@ div.unit {
    margin-left: 1.5%;
    height: 300px;
    float: left;
+   cursor: pointer;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+
+}
+
+ul:hover li {
+    opacity: 0.7;
+}
+
+ul:hover li:hover {
+   opacity: 1 ;
 }
 
 /*
