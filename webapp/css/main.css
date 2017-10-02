@@ -98,7 +98,7 @@ textarea {
          url('fonts/EtelkaTextPro.ttf') format('truetype'),
          url('fonts/EtelkaTextPro.svg#EtelkaTextPro') format('svg');
     font-weight: lighter;
-    font-style: lighter;
+    font-style: normal;
 }
 
 
@@ -111,7 +111,7 @@ textarea {
          url('fonts/EtelkaTextProBold.ttf') format('truetype'),
          url('fonts/EtelkaTextProBold.svg#EtelkaTextProBold') format('svg');
          font-weight: bold;
-         font-style: bold;
+         font-style: normal;
 }
 
 /*
@@ -154,6 +154,41 @@ p {
 
 p strong {
     font-family: "EtelkaTextProBold", serif;
+}
+
+p.foot {
+    margin-bottom: 10vh;
+}
+
+div#caroussel {
+    width: 80%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10vh;
+    margin-bottom: 100px;
+}
+
+div.unit {
+   width: 30%;
+   margin-right: 1.5%;
+   margin-left: 1.5%;
+   height: 300px;
+   float: left;
+}
+
+/*
+div.unit:hover {
+ border:2px solid pink;
+}*/
+
+div.unit img {
+    width: 100%;
+    height: auto;
+}
+
+div.unit p {
+    font-size: 12px;
 }
 
 /* ==========================================================================
