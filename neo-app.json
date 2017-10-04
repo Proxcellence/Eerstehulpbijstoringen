@@ -1,5 +1,5 @@
 {
-  "welcomeFile": "/webapp/index.html",
+  /* "welcomeFile": "/webapp/index.html", */
   "sendWelcomeFileRedirect": true,
   "authenticationMethod": "none"
 }
