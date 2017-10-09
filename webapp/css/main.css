@@ -124,7 +124,8 @@ textarea {
 }
 
 h1 {
-    width: 100%;
+    width: 80%;
+    margin-left: 10%;
     text-align: center;
     color: #D21242;
     font-family: "EtelkaTextProBold", serif;
@@ -164,8 +165,9 @@ p strong {
 
 p.foot {
     position: absolute;
-    bottom: 10vh;
-   width: 100%;
+    bottom: 6vh;
+   width: 80%;
+   margin-left: 10%;
    text-align: center;}
 
 div#caroussel {
@@ -379,8 +381,16 @@ div.unit p {
    Modify as content requires.
    ========================================================================== */
 
-@media only screen and (min-width: 35em) {
+@media only screen and (max-width: 840px) {
     /* Style adjustments for viewports that meet the condition */
+
+    ul li.onderwerp {
+ 
+  width: 100%;
+  margin-left: -6%;
+  margin-right: 0;
+  padding-left: 0;
+}
 }
 
 @media print,
