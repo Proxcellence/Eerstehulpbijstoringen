@@ -19,39 +19,23 @@
         <![endif]-->
 
         <!-- Add your site or application content here -->
+        <div class="terug"><a onclick="goBack()">terug</a></div>
+        <div class="sluit"><a onclick="self.close()">X</a> </div>
+
        <div id="container">
-           <h1> Eerste hulp bij Storingen </h1>
-           <p> Om goed te kunnen helpen is het van belang dat we weten over wat voor installatie je beschikt. 
-Kies je installatie uit de onderstaande afbeeldingen. </p>
+         <h2> Geluid </h2>
+        <p> < oplossing > </p>
         
 
-        <div id="caroussel">
-            <ul>
-            <li><a onclick="openWin()"><div class="unit"><img src="img/HSF_twist_elektrisch.png"><p>HSF Twist elektrisch</p></div></a></li>
-            <li><div class="unit"><img src="img/HSF_twist_mechanisch.png"><p>HSF Twist mechanisch</p></div></li>
-            <li><div class="unit"><img src="img/AGH.png"><p>AGH</p></div></li>
-            </ul>
-            <div class="spacer" style="clear: both;"></div>
-        </div>
-
-        
-        <p class="foot"> Zit je installatie hier niet tussen? Bel <strong>0800-0072</strong> (gratis) </p>
-
-        <script>
-        var myWindow;
-
-        function openWin() {
-            myWindow = window.open("twist_elektrisch.html", "_blank", "width=960, height=640");
-            window.parent.document.title = "Your new title";
-        }
-
-        function closeWin() {
-            myWindow.close();
-        }
-        </script>
+        <p class="foot"> Heeft dit het probleem niet verholpen? Bel <strong>0800-0072</strong> (gratis) </p>
 
         </div>
 
+<script>
+function goBack() {
+    window.history.back();
+}
+</script>
         <script src="js/vendor/modernizr-3.5.0.min.js"></script>
         <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.2.1.min.js"><\/script>')</script>

@@ -17,7 +17,7 @@
         <!--[if lte IE 9]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
         <![endif]-->
-
+        <div class="sluit"><a onclick="self.close()">X</a> </div>
         <!-- Add your site or application content here -->
        <div id="container">
            <h1> Eerste hulp bij Storingen </h1>
@@ -27,7 +27,7 @@ Kies je installatie uit de onderstaande afbeeldingen. </p>
 
         <div id="caroussel">
             <ul>
-            <li><a onclick="openWin()"><div class="unit"><img src="img/HSF_twist_elektrisch.png"><p>HSF Twist elektrisch</p></div></a></li>
+            <li><a href="twist_elektrisch.html"><div class="unit"><img src="img/HSF_twist_elektrisch.png"><p>HSF Twist elektrisch</p></div></a></li>
             <li><div class="unit"><img src="img/HSF_twist_mechanisch.png"><p>HSF Twist mechanisch</p></div></li>
             <li><div class="unit"><img src="img/AGH.png"><p>AGH</p></div></li>
             </ul>
@@ -36,19 +36,6 @@ Kies je installatie uit de onderstaande afbeeldingen. </p>
 
         
         <p class="foot"> Zit je installatie hier niet tussen? Bel <strong>0800-0072</strong> (gratis) </p>
-
-        <script>
-        var myWindow;
-
-        function openWin() {
-            myWindow = window.open("twist_elektrisch.html", "_blank", "width=960, height=640");
-            window.parent.document.title = "Your new title";
-        }
-
-        function closeWin() {
-            myWindow.close();
-        }
-        </script>
 
         </div>
 
