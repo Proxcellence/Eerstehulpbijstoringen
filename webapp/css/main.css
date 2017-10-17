@@ -382,6 +382,7 @@ div.vraag .antwoorden a {
   margin-left: 1vw;
   margin-right: 1vw;
   text-decoration: none;
+  font-size: 14px;
 }
 
 div.vraag .antwoorden a:hover {
