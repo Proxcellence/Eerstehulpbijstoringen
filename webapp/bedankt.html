@@ -13,59 +13,63 @@
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
 
-        <link rel="stylesheet" href="css/featherlight.css">
 
     </head>
     <body>
         <!--[if lte IE 9]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
         <![endif]-->
-
-        <!-- Add your site or application content here -->
-       <div class="terug"><a onclick="goBack()">Terug</a></div>
-        <div class="sluit"><a onclick="self.close()">X</a> </div>
-
-       <div id="container">
-        <h2 class="onderwerp"> Geen centrale verwarming </h2>
- 
-        
-        <div class="vraag">
-            <h3>Staan de afsluiters open?</h3>
-
-            <a href="img/afsluiters.JPG" data-featherlight="image">Waar kan ik de afsluiters vinden?</a>
-
-            <div class="antwoorden">
-                <a href="kranen.html" class="left">Ja</a>
-               <a href="afsluiters.html" class="right">Nee</a>
-           </div>
-        </div>
-          <p class="tip"> <span class="tip">TIP:</span> Het kan zijn dat na onderhoud of reparatie de afsluiters niet helemaal open zijn gezet. Hier merk je vaak niks van tot dat het stookseizoen begint. </p>
-
-        <p class="foot"> Heeft dit het probleem niet verholpen? Bel <strong>0800-0072</strong> (gratis) </p>
-
-        </div>
-
-<script>
+        <div class="terug"><a onclick="goBack()">Terug</a></div>
+        <script>
 function goBack() {
     window.history.back();
 }
 </script>
+        <div class="sluit"><a onclick="self.close()">X</a> </div>
+        <!-- Add your site or application content here -->
+       <div id="container">
+           <h1> Eerste hulp bij Storingen </h1>
+           <p> Om je in de toekomst nog beter van dienst te kunnen willen we graag weten of we je hebben kunnen helpen.  </p>
 
+        <p class="foot"> Heb je nog vragen? Bel <strong>0800-0072</strong> (gratis) </p>
+
+        </div>
+
+        
         <script src="js/vendor/modernizr-3.5.0.min.js"></script>
         <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.2.1.min.js"><\/script>')</script>
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
 
-       
-<script src="js/featherlight.js" type="text/javascript" charset="utf-8"></script>
+        <script src="js/owl.carousel.min.js"></script>
+
+                  <script>
+            $(document).ready(function() {
+              var owl = $('.owl-carousel');
+              owl.owlCarousel({
+                loop: true,
+                margin: 10,
+                navRewind: false,
+                responsive: {
+                  0: {
+                    items: 2
+                  },
+                  600: {
+                    items: 3
+                  },
+                  1000: {
+                    items: 5
+                  }
+                }
+              })
+            })
+          </script>
 
         <script>
             window.ga=function(){ga.q.push(arguments)};ga.q=[];ga.l=+new Date;
             ga('create','UA-XXXXX-Y','auto');ga('send','pageview')
         </script>
         <script src="https://www.google-analytics.com/analytics.js" async defer></script>
-
-
     </body>
 </html>
