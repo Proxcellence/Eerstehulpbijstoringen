@@ -12,6 +12,10 @@
 
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
+
+        <link rel="stylesheet" href="css/owl.carousel.min.css" />
+        <link rel="stylesheet" href="css/owl.theme.default.css" />
+
     </head>
     <body>
         <!--[if lte IE 9]>
@@ -23,28 +27,80 @@
            <h1> Eerste hulp bij Storingen </h1>
            <p> Om goed te kunnen helpen is het van belang dat we weten over wat voor installatie je beschikt. 
 Kies je installatie uit de onderstaande afbeeldingen. </p>
-        
 
         <div id="caroussel">
-            <ul>
-            <li><a href="twist_elektrisch.html"><div class="unit"><img src="img/HSF_twist_elektrisch.png"><p>HSF Twist elektrisch</p></div></a></li>
-            <li><a href="twist_elektrisch.html"><div class="unit"><img src="img/HSF_twist_mechanisch.png"><p>HSF Twist mechanisch</p></div></a></li>
-            <li><a href="twist_elektrisch.html"><div class="unit"><img src="img/AGH.png"><p>AGH</p></div></a></li>
-            </ul>
-            <div class="spacer" style="clear: both;"></div>
+            
+            <div class="owl-carousel owl-theme">
+            <div class="item">
+              <a href="twist_elektrisch.html"><div class="unit"><img src="img/HSF_twist_elektrisch.png"><p>HSF Twist elektrisch</p></div></a>
+            </div>
+            <div class="item">
+              <a href="twist_elektrisch.html"><div class="unit"><img src="img/HSF_twist_elektrisch.png"><p>HSF Twist elektrisch</p></div></a>
+            </div>
+            <div class="item">
+              <a href="twist_elektrisch.html"><div class="unit"><img src="img/AGH.png"><p>AGH</p></div></a>
+            </div>
+          </div>
+          
         </div>
 
         <p class="tip"> <span class="tip">TIP:</span> Geen warm water en geen verwarming neem dan direct contact op met <strong>0800-0072</strong> </p>
-        
+
         <p class="foot"> Zit je installatie hier niet tussen? Bel <strong>0800-0072</strong> (gratis) </p>
 
         </div>
 
+        <script type="text/javascript">
+            $(document).ready(function(){
+$('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:true,
+    dots: true,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:3
+        },
+        1000:{
+            items:5
+        }
+    }
+})
+});
+        </script>
+        
         <script src="js/vendor/modernizr-3.5.0.min.js"></script>
         <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.2.1.min.js"><\/script>')</script>
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
+
+        <script src="js/owl.carousel.min.js"></script>
+
+                  <script>
+            $(document).ready(function() {
+              var owl = $('.owl-carousel');
+              owl.owlCarousel({
+                loop: true,
+                margin: 10,
+                navRewind: false,
+                responsive: {
+                  0: {
+                    items: 2
+                  },
+                  600: {
+                    items: 3
+                  },
+                  1000: {
+                    items: 5
+                  }
+                }
+              })
+            })
+          </script>
 
         <script>
             window.ga=function(){ga.q.push(arguments)};ga.q=[];ga.l=+new Date;
