@@ -372,6 +372,7 @@ div.vraag ul {
   width: 100%;
   text-align: center;
   margin-top: 10vh;
+  padding-left: 5%;
 }
 div.vraag li {
   display: inline;
