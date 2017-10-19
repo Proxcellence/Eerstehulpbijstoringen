@@ -280,6 +280,11 @@ a .onderwerp {
     color: #666;
 }
 
+a{
+    color:inherit;
+    text-decoration:none;
+}
+
 a[href^="tel"]{
     color:inherit;
     text-decoration:none;
@@ -313,8 +318,9 @@ p.tip {
   max-width: 700px;
   opacity: 0.8;
 }
-
-
+#container img.icon {
+  width: 200px;
+}
 div.unit img {
     width: 100%;
     height: auto;
@@ -360,6 +366,24 @@ div.vraag a {
 
 div.vraag a:hover {
   text-decoration: underline;
+}
+
+div.vraag ul {
+  width: 100%;
+  text-align: center;
+  margin-top: 10vh;
+}
+div.vraag li {
+  display: inline;
+  width: 10%;
+  float: left;
+  font-family: "EtelkaTextPro", serif;
+    font-size: 30px;
+}
+
+div.vraag li:hover{
+  font-family: "EtelkaTextProBold", serif;
+  cursor: pointer;
 }
 
 .antwoorden {

@@ -12,6 +12,9 @@
 
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
+
+        <link rel="stylesheet" href="css/featherlight.css">
+
     </head>
     <body>
         <!--[if lte IE 9]>
@@ -20,12 +23,21 @@
 
         <!-- Add your site or application content here -->
        <div class="terug"><a onclick="goBack()">Terug</a></div>
-        <div class="sluit"><a onclick="self.close()">X</a> </div>
+        <div class="sluit"><a href="bedankt.html">X</a> </div>
 
        <div id="container">
         <h2 class="onderwerp"> Lekkage </h2>
-        <p> < oplossing > </p>
+ 
         
+        <div class="vraag">
+            <h3>Bevindt de lekkage zich in de meterkast?</h3>
+
+            <div class="antwoorden">
+                <a href="hoofdkraan.html" class="left">Ja</a>
+               <a href="instellateur.html" class="right">Nee</a>
+           </div>
+        </div>
+          <p class="tip"> <span class="tip">TIP:</span> Probeer bij een lekkage de hoofdkraan dicht te draaien. Maar let op het lekkende water kan heet zijn </p>
 
         <p class="foot"> Heeft dit het probleem niet verholpen? Bel <strong>0800-0072</strong> (gratis) </p>
 
@@ -36,16 +48,22 @@ function goBack() {
     window.history.back();
 }
 </script>
+
         <script src="js/vendor/modernizr-3.5.0.min.js"></script>
         <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.2.1.min.js"><\/script>')</script>
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
 
+       
+<script src="js/featherlight.js" type="text/javascript" charset="utf-8"></script>
+
         <script>
             window.ga=function(){ga.q.push(arguments)};ga.q=[];ga.l=+new Date;
             ga('create','UA-XXXXX-Y','auto');ga('send','pageview')
         </script>
         <script src="https://www.google-analytics.com/analytics.js" async defer></script>
+
+
     </body>
 </html>
