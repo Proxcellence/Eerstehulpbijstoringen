@@ -366,6 +366,7 @@ div.vraag a {
 
 div.vraag a:hover {
   text-decoration: underline;
+   cursor: pointer;
 }
 
 div.vraag ul {
@@ -376,15 +377,20 @@ div.vraag ul {
 }
 div.vraag li {
   display: inline;
-  width: 10%;
+  width: 8%;
   float: left;
   font-family: "EtelkaTextPro", serif;
     font-size: 30px;
 }
 
+div.vraag li p {
+  line-height: 10px;
+  color: #00afdb;
+}
+
 div.vraag li:hover{
   font-family: "EtelkaTextProBold", serif;
-  cursor: pointer;
+ 
 }
 
 .antwoorden {
