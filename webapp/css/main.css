@@ -232,8 +232,8 @@ ul {
 
 .terug {
     position: relative;
-    left: 3vw;
-    top: 3vw;
+    left: 20px;
+    top: 10px;
     cursor: pointer;
     float:left;
 }
@@ -257,6 +257,18 @@ ul {
   margin-left: 10px;
   margin-right: 10px;
   position: relative;
+}
+
+.logo {
+  width: 100px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+}
+
+.logo img {
+  width: 100%;
 }
 
 .sluit {
