@@ -159,6 +159,10 @@ h2.onderwerp {
     margin-top: 10vh;
 }
 
+h2.bedankt {
+
+}
+
 p {
     width: 60%;
     margin-left: auto;
@@ -390,15 +394,24 @@ div.vraag a:hover {
 div.vraag ul {
   width: 100%;
   text-align: center;
-  margin-top: 10vh;
-  padding-left: 5%;
+  margin-top: 5vh;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 5vh;
+  padding-bottom: 5vh;
 }
+
 div.vraag li {
   display: inline;
   width: 8%;
   float: left;
   font-family: "EtelkaTextPro", serif;
-    font-size: 30px;
+  font-size: 30px;
+  border:1px solid #00afdb;
+}
+
+div.vraag li.tekst{
+  border:none;
 }
 
 div.vraag li p {
