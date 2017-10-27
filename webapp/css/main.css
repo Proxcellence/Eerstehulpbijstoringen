@@ -118,9 +118,9 @@ textarea {
 #container {
     position: relative;
     width: 100%;
-    float: left;
     height: auto;
-    min-height: 100vh;
+    max-width: 1400px;
+    margin: 0 auto;
 }
 
 #container img {
@@ -140,7 +140,7 @@ h1 {
     font-family: "EtelkaTextProBold", serif;
     font-size: 40px;
     line-height: 48px;
-    margin-top: 14vh;
+    margin-top: 8vh;
 }
 
 h2 {
@@ -156,7 +156,7 @@ h2 {
 }
 
 h2.onderwerp {
-    margin-top: 10vh;
+    margin-top: 2vh;
 }
 
 h2.bedankt {
@@ -384,7 +384,7 @@ div.vraag h3 {
     width: 100%;
     font-family: "EtelkaTextPro", serif;
     font-size: 30px;
-    padding-top: 7vh;
+    padding-top: 5vh;
 }
 
 div.vraag a {
@@ -415,7 +415,7 @@ div.vraag ul {
 
 div.vraag li {
   display: inline;
-  width: 8%;
+  width: 9%;
   float: left;
   font-family: "EtelkaTextPro", serif;
   font-size: 30px;
@@ -439,7 +439,7 @@ div.vraag li:hover{
 .antwoorden {
     margin-left: auto;
     margin-right: auto;
-    padding-top: 10vh;
+    padding-top: 4vh;
     padding-bottom: 10vh;
 }
 
@@ -563,6 +563,31 @@ div.vraag .antwoorden a:hover {
   margin-right: 0;
   padding-left: 0;
 }
+
+  div.vraag {
+    max-width: 800px;
+    width: 90%;
+  }
+
+div.vraag ul {
+  margin-left: auto;
+  margin-right: auto;
+  width: 400px;
+}
+
+.antwoorden a {
+  width: 800px;
+}
+
+div.vraag ul li {
+  font-size: 16px;
+  line-height: 40px;
+  width: 35px;
+}
+  p.tip {
+    width: 90%;
+    max-width: 800px;
+  }
 }
 
 @media print,
