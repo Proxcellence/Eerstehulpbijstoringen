@@ -612,7 +612,7 @@ div.vraag ul {
   margin-right: auto;
   width: 100%;
   padding-left: 4%;
-  padding-bottom: 120px;
+  padding-bottom: 110px;
 }
 
 .antwoorden a {
@@ -628,6 +628,11 @@ div.vraag ul li {
   p.tip {
     width: 90%;
     max-width: 800px;
+  }
+
+  p {
+    width: 90%;
+    padding-bottom: 40px;
   }
 
 
