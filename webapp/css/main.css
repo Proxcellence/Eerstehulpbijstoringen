@@ -561,6 +561,11 @@ div.vraag .antwoorden a:hover {
     top: -5px;
 }
 
+.logo img {
+    margin-top: 35px;
+    margin-bottom: -10px;
+}
+
     ul li.onderwerp {
  
   width: 100%;
