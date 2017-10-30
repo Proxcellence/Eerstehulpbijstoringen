@@ -566,6 +566,15 @@ div.vraag .antwoorden a:hover {
     margin-bottom: -10px;
 }
 
+p.start {
+  padding-bottom: 60px;
+  padding-top: 20px;
+}
+
+h1 {
+  font-size: 38px;
+  margin-top: 40px;
+}
 
 h2.onderwerp {
   font-size: 16px;
