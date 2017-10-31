@@ -9,20 +9,20 @@
 .owl-theme .owl-nav {
   margin-top: 20px;
   text-align: center;
+  width: 100%;
   -webkit-tap-highlight-color: transparent; 
    font-family: "EtelkaTextPro", serif;}
 
   .owl-theme .owl-nav [class*='owl-'] {
     color: #ccc;
     font-size: 14px;
-    margin: 5px;
-    padding: 4px 7px;
+    margin: 0;
+    padding: 0;
     /*background: #D6D6D6;*/
     display: inline-block;
+    width: 200px;
+    margin-top: 20px;
     cursor: pointer;
-    width: 100px;
-    margin-right: 10%;
-    margin-left: 10%;
     border-radius: 3px; }
     .owl-theme .owl-nav [class*='owl-']:hover {
      /* background: #869791; */
@@ -37,6 +37,12 @@
 
 .owl-theme .owl-dots {
   text-align: center;
+  width: 100px;
+  margin-left: auto;
+  margin-right: auto;
+
+  margin-top: -20px;
+  padding-bottom: 30px;
   -webkit-tap-highlight-color: transparent; }
   .owl-theme .owl-dots .owl-dot {
     display: inline-block;
@@ -47,7 +53,7 @@
       height: 10px;
       margin: 5px 7px;
       background: #D6D6D6;
-      margin-top: -40px;
+      margin-top:5px;
       display: block;
       -webkit-backface-visibility: visible;
       transition: opacity 200ms ease;
