@@ -28,40 +28,36 @@
         <![endif]-->
 
         <!-- Add your site or application content here -->
-        <div class="terug"><a href="start.html">Begin</a> <div class="line"></div> <a href="start.html">Terug</a></div>
+        <div class="terug"><a href="start.html">Begin</a> <div class="line"></div> 
+        <a onclick="goBack()">Terug</a></div>
         <div class="logo"><img src="img/Eneco_logo.png"></div>
         <div class="sluit"><a href="bedankt.html">X</a> </div>
 
        <div id="container">
-           <h1> Eerste hulp bij storingen </h1>
-            <p class="tip"> <span class="tip">TIP:</span> Controleer de led lampjes aan de voorkant van je installatie</p>
+        <h2 class="onderwerp">Problemen met warm water </h2>
         
-        <h2> Wat is het probleem? </h2>
+         <p class="tip"> <span class="tip">TIP:</span> Het kan zijn dat er helemaal geen water binnen komt, neem dan contact op met uw waterleverancier. </p>
+          
+              <div class="vraag">
+            <h3>Staat de afsluiter van het warme water open?</h3>
+            <a href="#"> </a>
+            <div class="antwoorden"> 
+                <a href="monteur_gwtw.html" class="left">Ja</a> 
+                <a href="geenwtwa02.html" class="right">Nee</a>
 
-        <div class="vragen"> 
-            <ul id="onderwerpen">
-                <li class="onderwerp"><span class="bolder">></span><a href="geencv.html">Geen centrale verwarming </a></li>
-                <li class="onderwerp"><span class="bolder">></span><a href="geenwtw.html">Problemen met warm water </a></li>
-                <li class="onderwerp"><span class="bolder">></span><a href="geluid.html">Geluid </a></li>
-                <li class="onderwerp"><span class="bolder">></span><a href="lekkage.html">Lekkage </a></li>
-                <li class="onderwerp"><span class="bolder">></span><a href="stank.html">Stank </a></li>
-                <li class="onderwerp"><span class="bolder">></span><a href="continuwarmte.html">Ongevraagd warmte</a></li>
-            </ul>
-            <div class="spacer" style="clear: both;"></div>
-
-            
+            </div>
         </div>
 
 
-
-       
-
-
-        <!--<div class="tip"><p> Zit je probleem hier niet tussen? Bel <strong>0800-0072</strong> (gratis) </p></div>-->
+      
 
         </div>
 
-
+<script>
+function goBack() {
+    window.history.back();
+}
+</script>
         <script src="js/vendor/modernizr-3.5.0.min.js"></script>
         <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.2.1.min.js"><\/script>')</script>
