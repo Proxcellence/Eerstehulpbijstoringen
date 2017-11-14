@@ -163,6 +163,31 @@ h2.bedankt {
 
 }
 
+span.afsluiten {
+    padding: .75em 1.125em .562em;
+    border: .188em solid #84b819;
+    border-bottom-color: #6da200;
+    border-top-width: 0;
+    border-left-width: 0;
+    border-right-width: 0;
+    border-radius: .375em;
+    font-family: inherit;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.2em;
+    text-transform: uppercase;
+    text-align: center;
+    cursor: pointer;
+    color: #fff;
+    background-color: #84b819;
+    position: relative;
+    margin-left:auto;
+    margin-right: auto;
+    float: left;
+    margin-left: 40%;
+    margin-top: 50px;
+}
+
 span.taal {
   opacity: 0.5;
 }
