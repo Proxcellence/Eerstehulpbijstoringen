@@ -163,6 +163,10 @@ h2.bedankt {
 
 }
 
+span.taal {
+  opacity: 0.5;
+}
+
 p {
     width: 60%;
     margin-left: auto;
