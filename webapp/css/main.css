@@ -6,6 +6,7 @@ html {
     color: #222;
     font-size: 1em;
     line-height: 1.4;
+    font-family: "EtelkaTextPro", sans-serif;
 }
 
 /*
@@ -137,7 +138,7 @@ h1 {
     margin-left: 10%;
     text-align: center;
     color: #D21242;
-    font-family: "EtelkaTextProBold", serif;
+    font-family: "EtelkaTextProBold";
     font-size: 40px;
     line-height: 48px;
     margin-top: 8vh;
@@ -146,7 +147,7 @@ h1 {
 h2 {
     width: 100%;
     text-align: center;
-    font-family: "EtelkaTextProBold", serif;
+    font-family: "EtelkaTextProBold";
     font-size: 20px;
     line-height: 28px;
     padding-top: 2vh;
@@ -196,7 +197,7 @@ p {
     margin-right: auto;
     text-align: center;
     color: #666666;
-    font-family: "EtelkaTextPro", serif;
+    font-family: inherit;
     font-size: 16px;
     line-height: 24px; 
     font-weight: 100;
@@ -204,7 +205,7 @@ p {
 
 
 p strong {
-    font-family: "EtelkaTextProBold", serif;
+    font-family: "EtelkaTextProBold", sans-serif;
 }
 
 p.foot {
@@ -334,7 +335,7 @@ background-color: #f6f6f6;
   margin-right: 1.5%;
   margin-left: 1.5%;
   margin-bottom: 20px;
-  font-family: "EtelkaTextPro", sans-serif;
+  font-family: inherit;
   font-size: 14px;
   line-height: 28px;
   cursor: pointer;
@@ -423,7 +424,7 @@ div.vraag {
 
 div.vraag h3 {
     width: 100%;
-    font-family: "EtelkaTextPro", serif;
+    font-family: inherit;
     font-size: 30px;
     padding-top: 5vh;
 }
@@ -459,7 +460,7 @@ div.vraag li {
   display: inline;
   width: 9.5%;
   float: left;
-  font-family: "EtelkaTextPro", serif;
+  font-family:inherit;
   font-size: 30px;
   line-height: 60px;
   border:1px solid #00afdb;
@@ -476,7 +477,7 @@ div.vraag li p {
 }
 
 div.vraag li:hover{
-  font-family: "EtelkaTextProBold", serif;
+  font-family: "EtelkaTextProBold", sans-serif;
  
 }
 
@@ -507,7 +508,7 @@ background-color: #f6f6f6;
   margin-right: 1.5%;
   margin-left: 1.5%;
   margin-bottom: 20px;
-  font-family: "EtelkaTextPro", serif;
+  font-family: inherit;
   font-size: 14px;
   line-height: 28px;
   cursor: pointer;
