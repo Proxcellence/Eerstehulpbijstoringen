@@ -243,7 +243,7 @@ li {
 }
 
 ul:hover li {
-    opacity: 0.9;
+    opacity: 0.7;
 }
 
 ul:hover li:hover {
