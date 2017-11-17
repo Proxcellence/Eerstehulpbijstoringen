@@ -446,24 +446,23 @@ div.vraag a:hover {
 }
 
 div.vraag ul {
-  width: 100%;
+  width: 325px;
   text-align: center;
   margin-top: 5vh;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 5vh;
   padding-bottom: 5vh;
-  padding-left: 20px;
+  padding-left: 0;
 }
 
 div.vraag li {
   display: inline;
-  width: 9.5%;
+  width: 65px;
   float: left;
   font-family:inherit;
   font-size: 30px;
   line-height: 60px;
-  border:1px solid #00afdb;
   margin-bottom: 40px;
 }
 
@@ -661,11 +660,7 @@ div.vraag a {
   }
 
 div.vraag ul {
-  margin-left: auto;
-  margin-right: auto;
-  width: 100%;
-  padding-left: 4%;
-  padding-bottom: 110px;
+
 }
 
 .antwoorden a {
@@ -673,10 +668,7 @@ div.vraag ul {
 }
 
 div.vraag ul li {
-  font-size: 16px;
-  line-height: 50px;
-  width:18%;
-  margin-bottom: 10px;
+
 }
   p.tip {
     width: 90%;
