@@ -653,17 +653,18 @@ div.vraag .antwoorden a:hover {
 
   div.terug {
     left: 4vw;
-    top: -100px;
+    top: -60px;
 }
 
 div.sluit {
-  top: -50px;
+  top: -40px;
   right: 5vw;
 }
 
 .logo {
-  margin-top: 100px;
-  margin-bottom: -20px;
+  margin-top: 60px;
+  padding-right: 10px;
+  margin-bottom: -50px;
 }
 
 p.start {
