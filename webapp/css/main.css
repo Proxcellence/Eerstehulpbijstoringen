@@ -657,14 +657,18 @@ div.vraag .antwoorden a:hover {
 }
 
 div.sluit {
-  top: -40px;
+  top: -30px;
   right: 5vw;
 }
 
 .logo {
-  margin-top: 60px;
+  margin-top: 75px;
   padding-right: 10px;
   margin-bottom: -50px;
+}
+
+#start {
+  padding-bottom: 26px;
 }
 
 p.start {
@@ -737,6 +741,11 @@ div.vraag ul li {
   .owl-stage-outer {
   margin-top: -100px;
   margin-bottom: -20px
+}
+
+p.start {
+  padding-bottom: 80px;
+  padding-top: 0px;
 }
 
 }
