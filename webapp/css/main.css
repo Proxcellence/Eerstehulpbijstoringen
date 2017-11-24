@@ -643,6 +643,23 @@ div.vraag .antwoorden a:hover {
    These examples override the primary ('mobile first') styles.
    Modify as content requires.
    ========================================================================== */
+@media only screen and (max-width: 1050px) {
+
+
+div.vraag h3 {
+  font-size: 22px;
+}
+
+div.vraag .antwoorden a {
+  font-size: 12px;
+}
+
+img.icon {
+  padding-bottom: 20px;
+}
+
+
+}
 
 @media only screen and (max-width: 950px) {
     /* Style adjustments for viewports that meet the condition */
