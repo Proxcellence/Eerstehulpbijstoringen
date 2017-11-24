@@ -653,11 +653,11 @@ div.vraag .antwoorden a:hover {
 
   div.terug {
     left: 4vw;
-    top: -60px;
+    top: -75px;
 }
 
 div.sluit {
-  top: -30px;
+  top: -55px;
   right: 5vw;
 }
 
@@ -669,6 +669,7 @@ div.sluit {
 
 #start {
   padding-bottom: 26px;
+  margin-top: 40px;
 }
 
 p.start {
