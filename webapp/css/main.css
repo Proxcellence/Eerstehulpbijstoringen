@@ -143,8 +143,13 @@ h1 {
     font-family: "EtelkaTextProBold";
     font-size: 40px;
     line-height: 48px;
-    margin-top: 10vh;
-    margin-bottom: 7vh;
+    margin-top: 7vh;
+    margin-bottom: 8vh;
+}
+
+h1.home {
+  margin-top: 4vh;
+  margin-bottom: 2vh;
 }
 
 h2 {
@@ -264,7 +269,7 @@ ul {
 .terug {
     position: relative;
     left: 20px;
-    top: 20px;
+    top: 5px;
     cursor: pointer;
     float:left;
 }
@@ -306,7 +311,7 @@ ul {
 .sluit {
     position: absolute;
     right: 30px;
-    top:100px;
+    top:75px;
     cursor: pointer;
     font-family: inherit, sans-serif;
     cursor: pointer;
@@ -398,13 +403,16 @@ p.tip {
   margin-left: auto;
   margin-right: auto;
   opacity: 0.8;
-  margin-top: -10px;
+  margin-top: -5vh;
   margin-bottom: 0;
 }
 
 #container img.icon {
-  width: 200px;
+    width: 200px;
+    margin-top: 1vh;
+    margin-bottom: -70px;
 }
+
 div.unit img {
     width: 100%;
     height: auto;
@@ -428,6 +436,7 @@ div.vraag {
     margin-left: auto;
     margin-right: auto;
     text-align:center;
+    margin-bottom: 5vh;
 }
 
 div.vraag h3 {
@@ -446,6 +455,23 @@ div.vraag a {
     color: #00afdb;
     text-decoration: none;
     font-family: sans-serif;
+}
+
+a.warmtewijzer {
+    display: inline;
+    width: 100%;
+    float: left;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    color: #00afdb;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+a.warmtewijzer:hover {
+  text-decoration: underline;
+   cursor: pointer;
 }
 
 div.vraag a:hover {
