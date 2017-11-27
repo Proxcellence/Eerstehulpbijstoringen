@@ -370,6 +370,7 @@ ul li.onderwerp span.bolder {
 a{
     color:inherit;
     text-decoration:none;
+    font-family: inherit;
 }
 
 a[href^="tel"]{
@@ -466,8 +467,9 @@ a.warmtewijzer {
     margin-right: auto;
     color: #00afdb;
     text-decoration: none;
-    font-family: sans-serif;
+    font-family: inherit;
     padding-bottom: 70px;
+
 }
 
 
