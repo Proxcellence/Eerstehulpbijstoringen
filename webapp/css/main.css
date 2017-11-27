@@ -116,6 +116,7 @@ textarea {
 }
 
 
+
 #container {
     position: relative;
     width: 80%;
@@ -195,6 +196,11 @@ span.afsluiten {
    margin-bottom: 100px;
 }
 
+span.afsluiten:hover {
+    cursor: pointer;
+  text-decoration: none;
+  background-color: #6da200;
+}
 span.taal {
   opacity: 0.5;
 }
@@ -431,6 +437,8 @@ span.tip {
   font-size: 16px;
 }
 
+
+
 div.vraag {
     width: 70%;
     max-width: 600px;
@@ -531,28 +539,58 @@ div.vraag .antwoorden a {
   padding-top: 10px;
   margin-left: 1vw;
   margin-right: 1vw;
-
   text-align: left;
-  text-indent: 20px;
-  width: 29%;
-  min-width: 200px;
+  width: auto;
   padding-bottom: 14px;
   padding-top: 14px;
 border-radius: .3125em;
 border: 0 solid #d8d8d8;
 border-bottom-width: 3px;
 background-color: #f6f6f6;
-  margin-right: 1.5%;
-  margin-left: 1.5%;
-  margin-bottom: 20px;
+
   font-family: inherit;
   font-size: 14px;
   line-height: 28px;
   cursor: pointer;
+
+  padding: .75em 1.125em .562em;
+border: .188em solid #84b819;
+border-bottom-color: #6da200;
+border-top-width: 0;
+border-left-width: 0;
+border-right-width: 0;
+border-radius: .375em;
+font-family: inherit;
+font-size: 16px;
+font-weight: 600;
+line-height: 1.2em;
+text-transform: uppercase;
+text-align: center;
+color: #fff;
+background-color: #84b819;
+position: relative;
+display: inline-block;
+
 }
 
 div.vraag .antwoorden a:hover {
   cursor: pointer;
+  text-decoration: none;
+  background-color: #6da200;
+}
+
+.info {
+  width: 32px;
+  height: 32px;
+  position: relative;
+  top: 10px;
+}
+
+
+span#info {
+        position: relative;
+  float: left;
+  height: 100%;
 }
 
 
