@@ -441,7 +441,7 @@ span.tip {
 
 div.vraag {
     width: 70%;
-    max-width: 600px;
+    max-width: 700px;
     margin-left: auto;
     margin-right: auto;
     text-align:center;
@@ -453,6 +453,10 @@ div.vraag h3 {
     font-family: inherit;
     font-size: 30px;
     padding-top: 5vh;
+}
+
+a {
+  font-family: inherit !important;
 }
 
 div.vraag a {
@@ -585,6 +589,9 @@ div.vraag .antwoorden a:hover {
   top: 10px;
 }
 
+a.left.weetikniet {
+  width: auto !important;
+}
 
 span#info {
         position: relative;
@@ -687,6 +694,9 @@ span#info {
 
 div.vraag h3 {
   font-size: 22px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 div.vraag .antwoorden a {
