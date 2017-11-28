@@ -400,18 +400,57 @@ div.vragen {
     margin-top: 0;
 }
 
+/*
 p.tip {
   background-color: #f6f6f6;
   padding-top:20px;
   padding-bottom: 20px;
-  width: 91%;
-  padding-left: 2.5%;
-  padding-right: 2.5%; 
+  width: 90%;
+  padding-left: 5%;
+  padding-right: 1%; 
   margin-left: auto;
   margin-right: auto;
+  text-align: center;
   opacity: 0.8;
   margin-top: -5vh;
   margin-bottom: 0;
+  position: relative;
+} */
+
+
+#tip {
+  background-color: #f6f6f6;
+  padding-top:5px;
+  padding-bottom: 5px;
+  width: 95%;
+  padding-left: 1%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  opacity: 0.8;
+  margin-top: -5vh;
+  margin-bottom: 0;
+  position: relative;
+}
+
+#tip p {
+  width: 80%;
+}
+
+#info {
+  height: 100%;
+  width: auto;
+  float: left;
+}
+
+#info img {
+  height: 32px;
+  width: auto;
+  margin-left: 20px;
+  margin-right: 0;
+  position:absolute;
+  top:50%;
+  margin-top: -16px;
 }
 
 #container img.icon {
@@ -582,21 +621,22 @@ div.vraag .antwoorden a:hover {
   background-color: #6da200;
 }
 
-.info {
-  width: 32px;
-  height: 32px;
-  position: relative;
-  top: 10px;
-}
+
 
 a.left.weetikniet {
   width: auto !important;
 }
 
 span#info {
-        position: relative;
-  float: left;
-  height: 100%;
+  width: 32px;
+  height: 32px;
+  position: absolute;
+  top: 50%; left: 30px;
+  transform: translate(-50%,-50%);
+}
+
+.info {
+ 
 }
 
 
