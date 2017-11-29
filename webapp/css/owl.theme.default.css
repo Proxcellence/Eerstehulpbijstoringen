@@ -14,7 +14,7 @@
   height: 50px;
   position: absolute;
   left: -50px;
-   top: 50px;
+   top: 25%;
   background-image: url("pijl_l.png");
   background-repeat: no-repeat;
   background-size: contain;
@@ -29,7 +29,7 @@
   height: 50px;
   position: absolute;
   right:-50px;
-  top: 50px;
+  top: 25%;
   background-image: url("pijl_r.png");
   background-repeat: no-repeat;
   background-size: contain;
