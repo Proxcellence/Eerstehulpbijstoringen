@@ -290,6 +290,10 @@ ul {
     position: relative;
 }
 
+.terug a:hover {
+  color: #d21242;
+}
+
 .line {
   width: 2px;
   height: 20px;
@@ -324,6 +328,10 @@ ul {
     color: #666;
     text-decoration: none;
     z-index: 99;
+}
+
+.sluit a:hover {
+  color: #d21242;
 }
 
 ul#onderwerpen {
