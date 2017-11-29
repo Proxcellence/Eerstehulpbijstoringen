@@ -881,9 +881,18 @@ p.start {
 @media only screen and (max-width: 600px) {
 
 div.unit {
-  width: 50%;
-  margin-left: 25%;
+  width: 80%;
+  margin-left: 10%;
 }
+
+div#caroussel {
+  width: 68%;
+}
+
+.owl-theme .owl-dots {
+  width: 100% !important;
+}
+
 
 
 }
