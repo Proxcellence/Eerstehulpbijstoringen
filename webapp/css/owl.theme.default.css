@@ -9,14 +9,36 @@
 
  div.owl-prev {
   float: left;
+  background-color: blue;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  left: -50px;
+   top: 50px;
+  background-image: url("pijl_l.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  background-color: #fff;
  }
 
   div.owl-next {
   float: right;
+  background-color: pink;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  right:-50px;
+  top: 50px;
+  background-image: url("pijl_r.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  background-color: #fff;
  }
 
 .owl-theme .owl-nav {
-  margin-top: 40px;
+  margin-top: 0px;
   text-align: center;
   width: 90%;
   max-width: 400px;
@@ -24,7 +46,8 @@
   margin-right: auto;
   padding-top: 20px;
   -webkit-tap-highlight-color: transparent; 
-   font-family: "EtelkaTextPro", serif;}
+   font-family: "EtelkaTextPro", serif;
+}
 
   .owl-theme .owl-nav [class*='owl-'] {
     color: #000;
@@ -33,7 +56,6 @@
     padding: 0;
     /*background: #D6D6D6;*/
     display: inline-block;
-    width: 20%;
     margin-top: 0px;
     cursor: pointer;
     border-radius: 3px; }
