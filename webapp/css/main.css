@@ -510,7 +510,7 @@ div.vraag a {
 }
 
 a.warmtewijzer {
-    display: inline;
+    display: inline-block;
     width: 100%;
     float: left;
     text-align: center;
@@ -520,6 +520,7 @@ a.warmtewijzer {
     text-decoration: none;
     font-family: inherit;
     padding-bottom: 70px;
+    margin-top: 10px;
 
 }
 
