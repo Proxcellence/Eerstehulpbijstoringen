@@ -347,9 +347,8 @@ ul#onderwerpen {
 ul li.onderwerp {
   float: left;
   text-align: left;
-  text-indent: 20px;
+  text-indent: 16px;
   width: 30%;
-
   padding-bottom: 14px;
   padding-top: 14px;
 border-radius: .3125em;
@@ -374,6 +373,7 @@ ul li.onderwerp span.bolder {
 
 .onderwerp a  {
     color:#00afdb;
+    font-size: 15px;
 }
 
 .onderwerp a:hover {
@@ -648,6 +648,15 @@ span#info {
  
 }
 
+iframe {
+  margin-top: 40px;
+  width: 600px;
+  height: 460px;
+  border:none;
+  margin-left: auto;
+  margin-right: auto;
+   overflow:hidden;
+}
 
 /* ==========================================================================
    Helper classes
@@ -759,7 +768,7 @@ img.icon {
 
 }
 
-@media only screen and (max-width: 950px) {
+@media only screen and (max-width: 980px) {
     /* Style adjustments for viewports that meet the condition */
 
     #container {
