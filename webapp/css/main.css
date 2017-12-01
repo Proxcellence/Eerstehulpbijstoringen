@@ -305,6 +305,7 @@ ul {
   position: relative;
 }
 
+
 .logo {
   width: 200px;
   position: relative;
@@ -649,6 +650,27 @@ span#info {
   transform: translate(-50%,-50%);
 }
 
+
+div#usabilla {
+  width: 200px;
+  margin-left:40% !important;
+  margin-top: 20vh;
+}
+
+div#usabilla table {
+  margin-left: -15px;
+  margin-top: 20px;
+}
+
+div#usabilla table tr td{
+  width: 200px;
+}
+
+div#usabilla table tr  img{
+  width: 25px;
+}
+
+
 .info {
  
 }
@@ -917,6 +939,11 @@ div#caroussel {
   width: 100% !important;
 }
 
+div#usabilla {
+  width: 200px;
+  margin-left:35% !important;
+  margin-top: 20vh;
+}
 
 
 }
