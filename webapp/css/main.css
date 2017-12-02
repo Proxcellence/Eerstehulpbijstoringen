@@ -149,7 +149,7 @@ h1 {
 }
 
 h1.home {
-  margin-top: 4vh;
+  
   margin-bottom: 2vh;
 }
 
@@ -941,7 +941,7 @@ div#caroussel {
 
 div#usabilla {
   width: 200px;
-  margin-left:35% !important;
+  margin-left:28vw !important;
   margin-top: 20vh;
 }
 
