@@ -2,7 +2,7 @@
 <html class="no-js" lang="">
     <head>
 
-                <!-- Global site tag (gtag.js) - Google Analytics -->
+        <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-110608413-1"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -25,43 +25,49 @@
         <link rel="mask-icon" href="favicons/safari-pinned-tab.svg" color="#c51d44">
         <meta name="theme-color" content="#ffffff">
 
-        <meta name="apple-mobile-web-app-capable" content="yes">
+                <meta name="apple-mobile-web-app-capable" content="yes">
         <meta name="apple-mobile-web-app-status-bar-style" content="default">
         <meta name="apple-mobile-web-app-title" content="Eerste hulp bij storingen">
         <link rel="apple-touch-startup-image" href="img/launch.png">
 
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
+
+        <link rel="stylesheet" href="css/featherlight.css">
+
     </head>
     <body>
         <!--[if lte IE 9]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
         <![endif]-->
 
-        <!-- Add your site or application content here -->
        <div id="container">
                 <!-- Add your site or application content here -->
-        <a href="https://www.eneco.nl" target="_blank"><div class="logo"><img src="img/Eneco_logo.png"></div></a>
-        <div class="terug"><a href="start.html">Begin</a> <div class="line"></div> <a onclick="goBack()">Terug</a></div><div class="sluit"><a href="bedankt.html">Sluit</a> </div>
-
-        <h1>Geluid</h1>
         
-                                                   <div id="tip">
+        <a href="https://www.eneco.nl" target="_blank"><div class="logo"><img src="img/Eneco_logo.png"></div></a>
+        <div class="terug"><a href="start.html">Begin</a> <div class="line"></div> <a onclick="goBack()">Terug</a></div>
+        <div class="sluit"><a href="bedankt.html">Sluit</a> </div>
+       <h1>Geen centrale verwarming</h1>
+
+            <div id="tip">
             <div id="info"><img class="info" src="img/info.png"></div>
-             <p>Geluidsklachten kunnen diverse oorzaken hebben. </p>
+             <p>Is er onlangs onderhoud of een reparatie uitgevoerd aan uw installatie? Dan kan het zijn dat de afsluiters niet goed open zijn gezet. Hierdoor kan het water niet voldoende doorstromen om je woning goed te verwarmen. Hier merk je vaak niets van tot dat je de verwarming gaat gebruiken. </p>
             </div>
+        
+        <div class="vraag">
+            <h3>Open alle afsluiters.<br /> 
+            Is het probleem nu verholpen?</h3>
 
-       <div class="vraag">
-            <h3>Komt het geluid uit de meterkast?</h3>
-            <a href="#"> </a>
-            <div class="antwoorden"> 
-                <a href="monteur_geluid.html" class="left">Ja</a> 
-                <a href="geluid_woninga0.html" class="right">Nee</a>
 
-            </div>
+            <div class="antwoorden">
+                <a href="verholpen_cv.html" class="left">Ja</a>
+               <a href="kranen.html" class="right">Nee</a>
+           </div>
+           <a href="img/afsluitersao.png" data-featherlight="image">Hoe open ik de afsluiters?</a>
         </div>
+          
 
-              <!--<p class="foot"> Heeft dit het probleem niet verholpen? Bel <strong>0800-0072</strong> (gratis) </p>-->
+            <!--<p class="foot"> Heeft dit het probleem niet verholpen? Bel <strong>0800-0072</strong> (gratis) </p>-->
 
         </div>
 
@@ -70,11 +76,15 @@ function goBack() {
     window.history.back();
 }
 </script>
+
         <script src="js/vendor/modernizr-3.5.0.min.js"></script>
         <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.2.1.min.js"><\/script>')</script>
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
+
+       
+<script src="js/featherlight.js" type="text/javascript" charset="utf-8"></script>
 
 
     </body>
